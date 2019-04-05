@@ -1,0 +1,10 @@
+@extends('layouts.app')
+@section('css')
+@include('landingpage.maincss')
+@endsection
+@section('contents')
+<h4>FAQ</h4>
+@endsection
+@section('scripts')
+@include('landingpage.mainscript')
+@endsection

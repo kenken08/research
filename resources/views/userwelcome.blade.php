@@ -1,0 +1,9 @@
+@extends('layouts.dashuser')
+@section('css')
+@endsection
+@section('contents')
+    @include('userdash.contents') 
+@endsection
+@section('scripts')
+@include('userdash.scripts')
+@endsection
